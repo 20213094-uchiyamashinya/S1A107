@@ -211,7 +211,7 @@ li {
   display: inline-block;
   max-width: 180px;
   text-align: center;
-  background-color: #293b6a;
+  background-color: #29586a;
   font-size: 16px;
   color: #FFF;
   text-decoration: none;
@@ -219,6 +219,7 @@ li {
   padding: 8px 16px;
   border: 1px dashed #FFF;
   box-shadow: 0px 0px 0px 2px #293b6a;/* box-shadowで外枠を */
+  border-radius: 4px;
 }
 
 .btn-denim:hover {
@@ -239,7 +240,8 @@ li {
   border: 2px solid #9ec34b;
   position: relative;
   overflow: hidden;
-  z-index: 1;
+  z-index: 0;
+  border-radius: 4px;
 }
 .btn-open:after{
   width: 100%;
@@ -278,6 +280,7 @@ li {
   position: relative;
   border: 2px solid #9ec34b;
   transition: .4s;
+  border-radius: 4px;
 }
 
 .btn-box:hover {
@@ -328,6 +331,7 @@ li {
   background-image: linear-gradient(-90deg, #89eb75, #f1e753);
   transition: .5s;
   background-size: 200%;
+  border-radius: 4px;
 }
 
 .btn-gradation:hover {
