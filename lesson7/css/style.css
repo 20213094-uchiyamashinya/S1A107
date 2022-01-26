@@ -54,7 +54,7 @@ address {
 -------------------------------------------------- */
 /* ヘッダー */
 .header {
-  
+  position: relative;
   /* メニューボタンの絶対配置の基準となる */
   padding: 15px 0 0;
   background-color: #fff;
@@ -73,11 +73,11 @@ address {
   「display: none;」で非表示にしている。
   -------------------- */
 .nav-toggle {
-  
+  display: none;
 }
 /* ハンバーガーボタン */
 .btn-burger {
-  
+  position: absolute;
   /* 親要素（.header）を基準に絶対配置 */
   top: 5px;
   right: 10px;
@@ -94,7 +94,7 @@ address {
 }
 /* メニューが開いたときの、ハンバーガーボタンの画像を指定 */
 .nav-toggle:checked~.btn-burger {
-  
+  background: url("../img/close.svg");
 }
 /* ナビゲーション */
 .nav {
